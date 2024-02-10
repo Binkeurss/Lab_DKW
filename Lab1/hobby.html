@@ -5,15 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sở thích</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header style="background-color: rgb(133, 236, 188);
-                font-size: 20px;
+                font-size: 30px;
                 text-align: center;
-                padding: 10px;"><b>Sở thích</b></header> 
+                padding: 10px;
+                font-family: 'Honk', system-ui;"><b>Sở thích</b></header> 
   <nav>
-    <p><strong>Mục lục</strong></p>
+    <p style="font-family: 'Honk', system-ui;"><strong>Mục lục</strong></p>
     <ul>
       <li><a href="./index.html" title="Trang chủ">Trang chủ</a></li>
       <li><a href="./personal_information.html" title="Thông tin cá nhân">Thông tin cá nhân</a></li>
@@ -32,7 +36,7 @@
   <main>
     <section>
       <div>
-        <h3>Thông tin sở thích</h3>
+        <h3 style="font-family: 'Honk', system-ui;">Thông tin sở thích</h3>
       </div>
       <blockquote>
         <!-- Tổng quát các sở thích-->
@@ -52,62 +56,94 @@
     <section>
       <!-- Chi tiết hơn về những sở thích của bản thân-->
       <div>
-        <h3>Chi tiết hơn:</h3>
+        <h3 style="font-family: 'Honk', system-ui;">Chi tiết hơn:</h3>
       </div>
       <blockquote>
         <div>
           <!-- Về âm nhạc-->
-          <p><b>1. Âm nhạc:</b> Thích nghe những bản nhạc <mark><b>ballad buồn</b></mark></p>
+          <p style="font-family: 'Honk', system-ui;
+          font-size: 20px;"><b>1. Âm nhạc:</b> Thích nghe những bản nhạc <mark><b>ballad buồn</b></mark></p>
           <p>Một số bài hát thường nghe:</p>
           <ul>
             <li>
               <a href="https://www.youtube.com/watch?v=Bunu0wj6c9c">
                 <p><b>W/n - id 2022 ft. 267</b></p>
+                <iframe title="W/n - id 2022 ft. 267" width="420" height="315" src="https://www.youtube.com/embed/Bunu0wj6c9c"></iframe>
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/watch?v=lB3SRFPYf98">
                 <p><b>Hẹn Em Ở Lần Yêu Thứ 2</b></p>
+                <iframe title="Hẹn Em Ở Lần Yêu Thứ 2" width="420" height="315" src="https://www.youtube.com/embed/lB3SRFPYf98"></iframe>
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/watch?v=xB2qsCnqAXA">
                 <p><b>Sau này hãy gặp lại nhau khi hoa nở</b></p>
+                <iframe title="Sau này hãy gặp lại nhau khi hoa nở" width="420" height="315" src="https://www.youtube.com/embed/xB2qsCnqAXA"></iframe>
               </a>
             </li>
           </ul>
           <!-- Về phim ảnh -->
           <div>
-            <p><b>2. Phim ảnh:</b> Thích xem thể loại trinh thám.</p>
-            <p>Một bộ phim đã và đang xem:</p>
+            <p style="font-family: 'Honk', system-ui;
+            font-size: 20px;"><b>2. Phim ảnh:</b> Thích xem thể loại trinh thám.</p>
+            <p style="font-size: 30px;">Một bộ phim đã và đang xem:</p>
             <ul>
-              <li>Đã từng cày hết bộ <b>Naruto.</b></li>
-              <li>Vẫn đang chờ <b>Conan</b> ra từng tập.</li>
-              <li>Cày hết mình bộ <b>Dấu vết - Trace</b>.</li>
+              <li>
+                <p style="font-size: 20px;
+                          background-color: aqua;">Đã từng cày hết bộ <b>Naruto.</b></p>
+                <img width="1200" height="500" alt="Naruto" src="./Picture/Naruto.jpe" title="Naruto">
+              </li>
+              <li>
+                <p style="font-size: 20px;
+                          background-color: darkgoldenrod;">Vẫn đang chờ <b>Conan</b> ra từng tập.</p>
+                <img width="1200" height="500" src="./Picture/Conan.jpeg" alt="Thám Tử Lừng Danh Conan" title="Thám Tử Lừng Danh Conan">
+              </li>
+              <li>
+                <p style="font-size: 20px;
+                          background-color: chartreuse;">Cày hết mình bộ <b>Dấu vết - Trace</b>.</p>
+                <img src="./Picture/Trace.jpg" alt="Trace" title="Dấu vết - Trace">
+              </li>
             </ul>
           </div>
           <!-- Về sách-->
           <div>
-            <p><b>3. Sách:</b></p>
+            <p style="font-family: 'Honk', system-ui;
+            font-size: 20px;"><b>3. Sách:</b></p>
             <p>Một số sách đã và đang đọc:</p>
             <ul>
               <li>
-                <p><b>Harry Potter</b> - J. K. Rowling</p>
+                <p style="background-color: bisque;
+                text-align: center;"><b>Harry Potter</b> - J. K. Rowling</p>
+                <video width="420" controls title="Giới thiệu về Harry Potter">
+                  <source src="./Video/HARRY_POTTER.mp4" type="video/mp4">
+                </video>
               </li>
               <li>
-                <p><b>Your name</b> - Shinkai Makoto</p>
+                <p style="background-color: rgb(78, 179, 128);
+                text-align: center;"><b>Your name</b> - Shinkai Makoto</p>
+                <video width="420" controls title="Giới thiệu về J. K. Rowling">
+                  <source src="./Video/Sparkle.mp4" type="video/mp4">
+                </video>  
               </li>
               <li>
-                <p><b>Sherlock Holmes</b> - Arthur Conan Doyle</p>
+                <p style="background-color: rgb(165, 102, 173);
+                text-align: center;"><b>Sherlock Holmes</b> - Arthur Conan Doyle</p>
+                <video width="420" title="Giới thiệu về Sherlock Holmes">
+                  <source src="./Video/SherlockHolmes.mp4" type="video/mp4">
+                </video>
               </li>
             </ul>
           </div>
           <div>
-            <p><b>4. Thể thao:</b> Thích chơi bóng đá nhưng hiện tại đang bị què &#58&#39&#41</p>
+            <p style="font-family: 'Honk', system-ui;
+            font-size: 20px;"><b>4. Thể thao:</b> Thích chơi bóng đá nhưng hiện tại đang bị què &#58&#39&#41</p>
           </div>
           <!-- Về màu sắc-->
           <div>
-            <p><b>5. Màu sắc:</b> Không có thích màu nào hết nhưng outfit đi học là một màu <b>ĐEN</b>.</p>
+            <p style="font-family: 'Honk', system-ui;
+            font-size: 20px;"><b>5. Màu sắc:</b> Không có thích màu nào hết nhưng outfit đi học là một màu <b>ĐEN</b>.</p>
           </div>
 
         </div>
